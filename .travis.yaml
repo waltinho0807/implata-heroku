@@ -1,0 +1,19 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t calegari/client -f ./client/Dockerfile ./client
+
+script:
+  - skaffold dev
+
+after_success:
+  - docker build -t calegari/auth ./client
+  - docker build -t calegari/produtos ./produtos
+  - docker build -t calegari/payments ./payments
+  - docker build -t calegari/orders ./orders
+
+
+  
