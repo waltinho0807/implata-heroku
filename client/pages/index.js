@@ -34,11 +34,11 @@ const Home = ({ currentUser }) => {
   );
 };
 
-Home.getInitialProps = async context => {
-  const client = buildClient(context);
-  const { data } = await client.get('/api/users/currentuser');
+Home.getInitialProps = async (context, client, currentUser ) => {
+ 
+  const { data } = await client.get('/api/produtos');
 
-  return data;
+  return {produtos: data};
 };
 
 export default Home;
