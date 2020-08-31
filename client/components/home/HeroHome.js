@@ -2,7 +2,7 @@ import React from 'react';
 import Search from '../form/HeroPages';
 
 
- const Hero = ({ currentUser }) => {
+ const HeroHome = ({ currentUser }) => {
 
     return (
         <section className="hero">
@@ -67,4 +67,4 @@ import Search from '../form/HeroPages';
 
 }
 
-export default Hero;
+export default HeroHome;

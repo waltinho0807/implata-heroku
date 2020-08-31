@@ -7,7 +7,7 @@ import Javascript from '../components/Javascript';
 import Header from '../components/Header';
 import PreLoader from '../components/Preloader';
 
-import Hero from '../components/home/Hero';
+import HeroHome from '../components/home/HeroHome';
 import Categories from '../components/home/Categories';
 import Featured from '../components/home/Featured';
 import Banner from '../components/home/Banner';
@@ -25,7 +25,7 @@ const Home = ({ currentUser }) => {
       <Head/>
       
       <Header currentUser={currentUser} />
-      <Hero />
+      <HeroHome />
       <Categories />
       <Featured />
       <Banner />
