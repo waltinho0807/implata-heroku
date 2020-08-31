@@ -16,7 +16,7 @@ const Loja = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header currentUser={currentUser} />
+            
             <ShopDetailsBread/>
             <ShopDetails/> 
             <ShopDetailsRelated/>

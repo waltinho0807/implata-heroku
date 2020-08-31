@@ -17,7 +17,7 @@ import FromBlog from '../components/home/FromBlog';
 
 
 
-const Home = ({ currentUser }) => {
+const Home = ({ currentUser, produtos }) => {
   return (
     
       <div> 
