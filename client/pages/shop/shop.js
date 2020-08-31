@@ -3,7 +3,7 @@ import React from 'react';
 import Head from '../../components/Head';
 import Footer from '../../components/Footer';
 import Javascript from '../../components/Javascript';
-import Header from '../../components/Header';
+
 
 
 
@@ -16,7 +16,7 @@ const Loja = ({currentUser})=>{
             <Head/>
             
             <Bread />
-            <Shop data={data}/>
+            <Shop data={proutos}/>
             <Footer/>
             <Javascript/>
         </div>
