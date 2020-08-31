@@ -33,8 +33,9 @@ const NewProduto = () => {
         setPrice(value.toFixed(2));
     }
 
-    return (<div className="container">
-        <h1>Produto create</h1>
+    return (
+    <div className="container">
+        <h1>Adicionar Produto</h1>
            <form onSubmit={onSubmit}>
                <div className="form-group">
                    <label>Title</label>
@@ -66,6 +67,7 @@ const NewProduto = () => {
                     onChange= {(e)=> setImg(e.target.value)}
                     className="form-control" />
                </div>
+               <button className="btn btn-primary">Add</button>
                {errors}
            </form>
     </div>)

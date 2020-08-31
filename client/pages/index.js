@@ -20,7 +20,7 @@ import FromBlog from '../components/home/FromBlog';
 const Home = ({ currentUser }) => {
   return (
     
-      <body>  
+      <div> 
       <Header currentUser={currentUser} />
       <HeroHome />
       <Categories />
@@ -30,7 +30,7 @@ const Home = ({ currentUser }) => {
       <FromBlog />
       <Footer />
       <Javascript />
-      </body>   
+      </div> 
   );
 };
 
