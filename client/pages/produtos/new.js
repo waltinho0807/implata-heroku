@@ -6,7 +6,7 @@ const NewProduto = () => {
     const [title, setTitle] = useState('');
     const [price, setPrice] = useState('');
     const [category, setCategory] = useState('');
-    const [img, setsImg] = useState('');
+    const [img, setImg] = useState('');
     const {doRequest, errors} = useRequest({
         url: '/api/produtos',
         method: 'post',
