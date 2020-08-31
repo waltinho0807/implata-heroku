@@ -22,7 +22,7 @@ const Home = ({ currentUser }) => {
     
       <div>
         
-      <Head/>
+      
       
       <Header currentUser={currentUser} />
       <HeroHome />

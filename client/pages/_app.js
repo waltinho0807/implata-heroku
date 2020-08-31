@@ -3,7 +3,7 @@ import buildClient from '../api/build-client';
 const AppComponent = ({ Component, pageProps, currentUser }) => {
   return (
     <div>
-      
+      <Head/>
       <Component {...pageProps} />
     </div>
   );
