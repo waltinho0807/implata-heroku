@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Search from '../../components/form/Search';
 
 
  const Hero = ({ currentUser }) => {
@@ -32,14 +32,7 @@ import Link from 'next/link';
                     <div className="col-lg-9">
                         <div className="hero__search">
                             <div className="hero__search__form">
-                                <form action="#">
-                                    <div className="hero__search__categories">
-                                        All Categories
-                                    <span className="arrow_carrot-down"></span>
-                                    </div>
-                                    <input type="text" placeholder="What do yo u need?"/>
-                                        <button type="submit" className="site-btn">SEARCH</button>
-                            </form>
+                                <Search/>
                         </div>
                                 <div className="hero__search__phone">
                                     <div className="hero__search__phone__icon">

@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import Javascript from '../../components/Javascript';
 import Header from '../../components/Header';
 
-import Hero from '../../components/home/Hero';
+import Search from '../../components/form/Search';
 
 import Bread from '../../components/shop/Bread';
 import Shop from '../../components/shop/Shop';
@@ -14,8 +14,8 @@ const Loja = ()=>{
     return (
         <div>
             <Head/>
-            <Hero/>
             <Header />
+            <Search /> 
             <Bread />
             <Shop/>
             <Footer/>
