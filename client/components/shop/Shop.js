@@ -510,7 +510,7 @@ const Shop = ({produtos})=>{
     );
 }
 
-Shop.getInitialProps = async (context,client)=>{
+Shop.getInitialProps = async (context, client)=>{
     const {data} = await client.get('/api/produtos');
 
     return {produtos: data}
