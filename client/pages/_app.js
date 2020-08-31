@@ -1,4 +1,5 @@
 import buildClient from '../api/build-client';
+import Head from '../components/Head';
 
 const AppComponent = ({ Component, pageProps, currentUser }) => {
   return (
