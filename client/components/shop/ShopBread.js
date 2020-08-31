@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bread = () => {
+const ShopBread = () => {
     return (
         <section className="breadcrumb-section set-bg" data-setbg="/static/img/breadcrumb.jpg">
             <div className="container">
@@ -20,4 +20,4 @@ const Bread = () => {
     )
 }
 
-export default Bread;
+export default ShopBread;

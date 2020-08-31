@@ -1,21 +1,20 @@
 import React from 'react';
 
-import Head from '../../components/Head';
+
 import Footer from '../../components/Footer';
 import Javascript from '../../components/Javascript';
 
 
 
 
-import Bread from '../../components/shop/Bread';
+import ShopBread from '../../components/shop/ShopBread';
 import Shop from '../../components/shop/Shop';
 
-const Loja = ({currentUser})=>{
+const Loja = ({currentUser, produtos})=>{
     return (
         <div>
-            <Head/>
             
-            <Bread />
+            <ShopBread />
             <Shop />
             <Footer/>
             <Javascript/>
@@ -23,13 +22,6 @@ const Loja = ({currentUser})=>{
     )
    
 }
-
-Loja.getInitialProps = async (context, client)=>{
-    const {data} = await client.get('/api/produtos');
-
-    return {produtos: data}
-}
-
 
 
 export default Loja;

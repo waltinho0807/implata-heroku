@@ -1,7 +1,6 @@
-import Head from '../../components/Head';
 import Footer from '../../components/Footer';
 import Javascript from '../../components/Javascript';
-import Header from '../../components/Header';
+
 
 
 
@@ -11,9 +10,7 @@ import ShowBlogHero from '../../components/blog/ShowBlogHero';
 
 const BlogDetails = ({currentUser})=>{
     return (
-        <div>
-            <Head/>
-             
+        <div> 
             <ShowBlogHero />
             <ShowBlog/>       
             <Footer/>

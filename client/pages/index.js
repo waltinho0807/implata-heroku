@@ -27,8 +27,7 @@ const Home = ({ currentUser, produtos }) => {
       <Banner />
       <Latest />
       <FromBlog />
-      <Footer />
-      <Javascript />
+      
       </div> 
   );
 };

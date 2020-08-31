@@ -10,6 +10,8 @@ const AppComponent = ({ Component, pageProps, currentUser }) => {
       <Head/>
       <Header currentUser={currentUser}/>
       <Component {...pageProps} />
+      <Footer />
+      <Javascript />
     </div>
   );
 };

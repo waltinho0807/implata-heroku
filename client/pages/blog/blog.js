@@ -14,8 +14,6 @@ import BlogRelated from '../../components/blog/BlogRelated';
 const BlogPage = ({currentUser})=>{
     return (
         <div>
-            <Head/>
-           
             <HeroPages/> 
             <BreadBlog />
             <Blog/>

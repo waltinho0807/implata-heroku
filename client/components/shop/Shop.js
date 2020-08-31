@@ -124,7 +124,7 @@ const Shop = ({produtos})=>{
                                         <div className="latest-product__item__pic">
                                             <img src="/static/img/latest-product/lp-2.jpg" alt=""/>
                                         </div>
-                                        <div class="latest-product__item__text">
+                                        <div className="latest-product__item__text">
                                             <h6>Crab Pool Security</h6>
                                             <span>$30.00</span>
                                         </div>
