@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import Javascript from '../../components/Javascript';
 import Header from '../../components/Header';
 
-
+import HeroPages from '../../components/form/HeroPages';
 
 import Blog from '../../components/blog/Blog';
 import BreadBlog from '../../components/blog/BreadBlog';
@@ -15,7 +15,8 @@ const BlogPage = ()=>{
     return (
         <div>
             <Head/>
-            <Header /> 
+            <Header />
+            <HeroPages/> 
             <BreadBlog />
             <Blog/>
             <BlogRelated/>

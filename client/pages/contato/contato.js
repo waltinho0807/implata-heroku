@@ -11,12 +11,14 @@ import Contato from '../../components/contato/Contato';
 import ContatoBread from '../../components/contato/ContatoBread';
 import ContatoMap from '../../components/contato/ContatoMap';
 import ContatoForm from '../../components/contato/ContatoForm';
+import HeroPages from '../../components/form/HeroPages';
 
 const Loja = ()=>{
     return (
         <div>
             <Head/>
             <Header /> 
+            <HeroPages/>
             <ContatoBread />
             <Contato/>
             <ContatoMap/>

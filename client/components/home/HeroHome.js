@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from '../../components/form/Search';
+import Search from '../form/HeroPages';
 
 
  const Hero = ({ currentUser }) => {
