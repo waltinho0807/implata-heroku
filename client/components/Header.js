@@ -25,8 +25,8 @@ export default ({ currentUser }) => {
                         <div className="col-lg-6 col-md-6">
                             <div className="header__top__left">
                                 <ul>
-                                    <li><i className="fa fa-envelope"></i> hello@colorlib.com</li>
-                                    <li>Free Shipping for all Order of $99</li>
+                                    <li><i className="fa fa-envelope"></i> calegari@hotmail.com</li>
+                                    <li>Frete Gratis Para Teodoro Sampaio</li>
                                 </ul>
                             </div>
                         </div>
@@ -65,8 +65,8 @@ export default ({ currentUser }) => {
                     <div className="col-lg-6">
                         <nav className="header__menu">
                             <ul>
-                                <li className="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./shop-grid.html">Shop</a></li>
+                                <li className="active"><a href="/">Home</a></li>
+                                <li><a href="/shop/shop">Loja</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul className="header__menu__dropdown">
                                         <li><a href="./shop-details.html">Shop Details</a></li>
@@ -75,8 +75,8 @@ export default ({ currentUser }) => {
                                         <li><a href="./blog-details.html">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="/blog/blog">Blog</a></li>
+                                <li><a href="/contato/contato">Contato</a></li>
                             </ul>
                         </nav>
                     </div>
