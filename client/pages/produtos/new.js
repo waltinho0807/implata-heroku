@@ -16,7 +16,7 @@ const NewProduto = () => {
             img,
             category
         },
-        onSuccess: () => {Router.push('/')}
+        onSuccess: (produto) => {console.log(produto)}
     });
 
     const onSubmit = (event)=>{

@@ -4,7 +4,6 @@ import buildClient from '../api/build-client';
 import Head from '../components/Head';
 import Footer from '../components/Footer';
 import Javascript from '../components/Javascript';
-import Header from '../components/Header';
 import PreLoader from '../components/Preloader';
 
 import HeroHome from '../components/home/HeroHome';

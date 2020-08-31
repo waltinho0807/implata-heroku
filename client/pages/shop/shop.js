@@ -16,7 +16,7 @@ const Loja = ({currentUser})=>{
             <Head/>
             
             <Bread />
-            <Shop data={proutos}/>
+            <Shop />
             <Footer/>
             <Javascript/>
         </div>
