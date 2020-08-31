@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Bread = ()=>{
+    return(
     <section className="breadcrumb-section set-bg" data-setbg="/static/img/breadcrumb.jpg">
     <div className="container">
         <div className="row">
@@ -16,6 +17,7 @@ const Bread = ()=>{
         </div>
     </div>
 </section>
+)
 }
 
 export default Bread;
