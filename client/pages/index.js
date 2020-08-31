@@ -21,6 +21,7 @@ const Home = ({ currentUser }) => {
   return (
     
       <div>
+        
       <Head/>
       <PreLoader/>
       <Header currentUser={currentUser} />
