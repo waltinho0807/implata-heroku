@@ -116,9 +116,7 @@
         autoplay: true
     });
 
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel();
-      });
+   
 
     /*-----------------------------
         Product Discount Slider
