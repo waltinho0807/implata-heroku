@@ -8,7 +8,7 @@ import Header from '../components/Header';
 import Bread from '../../components/shop/Bread';
 import Shop from '../../components/shop/Shop';
 
-const Shop = ()=>{
+const Loja = ()=>{
     return (
         <div>
             <Head/>
