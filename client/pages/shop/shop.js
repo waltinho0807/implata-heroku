@@ -10,11 +10,11 @@ import Header from '../../components/Header';
 import Bread from '../../components/shop/Bread';
 import Shop from '../../components/shop/Shop';
 
-const Loja = ()=>{
+const Loja = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header /> 
+            <Header currentUser={currentUser} /> 
             <Bread />
             <Shop/>
             <Footer/>

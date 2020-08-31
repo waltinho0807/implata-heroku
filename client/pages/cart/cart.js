@@ -8,11 +8,11 @@ import HeroPages from '../../components/form/HeroPages';
 import Cart from '../../components/cart/Cart';
 import CartBread from '../../components/cart/CartBread';
 
-const Carrinho = ()=>{
+const Carrinho = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header />
+            <Header currentUser={currentUser} />
             <HeroPages/>
             <CartBread/>
             <Cart/>    

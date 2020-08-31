@@ -9,11 +9,11 @@ import ShowBlog from '../../components/blog/ShowBlog';
 import ShowBlogHero from '../../components/blog/ShowBlogHero';
 
 
-const BlogDetails = ()=>{
+const BlogDetails = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header /> 
+            <Header currentUser={currentUser}/> 
             <ShowBlogHero />
             <ShowBlog/>       
             <Footer/>

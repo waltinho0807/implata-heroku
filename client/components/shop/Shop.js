@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Shop = ()=>{
+const Shop = ({produtos})=>{
+    console.log(produtos)
     return(
     <section class="product spad">
     <div class="container">
@@ -506,7 +507,13 @@ const Shop = ()=>{
         </div>
     </div>
 </section>
-    )
+    );
+}
+
+Shop.getInitialProps = async ()=>{
+    const {data} = await client.get('/api/produtos');
+
+    return {produtos: data}
 }
 
 export default Shop;

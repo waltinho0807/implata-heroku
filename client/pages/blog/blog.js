@@ -11,11 +11,11 @@ import Blog from '../../components/blog/Blog';
 import BreadBlog from '../../components/blog/BreadBlog';
 import BlogRelated from '../../components/blog/BlogRelated';
 
-const BlogPage = ()=>{
+const BlogPage = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header />
+            <Header currentUser={currentUser} />
             <HeroPages/> 
             <BreadBlog />
             <Blog/>

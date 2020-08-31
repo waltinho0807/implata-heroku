@@ -12,11 +12,11 @@ import ShopDetails from '../../components/shop/ShopDeatails';
 
 
 
-const Loja = ()=>{
+const Loja = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header />
+            <Header currentUser={currentUser} />
             <ShopDetailsBread/>
             <ShopDetails/> 
             <ShopDetailsRelated/>
