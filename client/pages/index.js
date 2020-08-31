@@ -23,7 +23,7 @@ const Home = ({ currentUser }) => {
       <div>
         
       <Head/>
-      <PreLoader/>
+      
       <Header currentUser={currentUser} />
       <Hero />
       <Categories />
