@@ -19,7 +19,6 @@ import FromBlog from '../components/home/FromBlog';
 
 const Home = ({ currentUser }) => {
   return (
-    
       <div>
       <Head/>
       <PreLoader/>
