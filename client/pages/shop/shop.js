@@ -16,12 +16,20 @@ const Loja = ({currentUser})=>{
             <Head/>
             
             <Bread />
-            <Shop/>
+            <Shop data={data}/>
             <Footer/>
             <Javascript/>
         </div>
     )
    
 }
+
+Loja.getInitialProps = async (context, client)=>{
+    const {data} = await client.get('/api/produtos');
+
+    return {produtos: data}
+}
+
+
 
 export default Loja;

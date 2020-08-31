@@ -2,7 +2,7 @@ import buildClient from '../api/build-client';
 import Head from '../components/Head';
 import Header from '../components/Header';
 
-import '../static/css/owl.carousel.min.js'
+
 
 const AppComponent = ({ Component, pageProps, currentUser }) => {
   return (
