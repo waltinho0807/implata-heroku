@@ -3,23 +3,23 @@ import React from 'react';
 const Shop = ({produtos})=>{
     console.log(produtos)
     return(
-    <section class="product spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-5">
-                <div class="sidebar">
-                    <div class="sidebar__item">
+    <section className="product spad">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-3 col-md-5">
+                <div className="sidebar">
+                    <div className="sidebar__item">
                         <h4>Department</h4>
                         <ul>
                             <li><a href="#">Fresh Meat</a></li>
                             <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
+                            <li><a href="#">Fruit  Nut Gifts</a></li>
                             <li><a href="#">Fresh Berries</a></li>
                             <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Butter  Eggs</a></li>
                             <li><a href="#">Fastfood</a></li>
                             <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="#">Papayaya Crisps</a></li>
                             <li><a href="#">Oatmeal</a></li>
                         </ul>
                     </div>
@@ -43,37 +43,37 @@ const Shop = ({produtos})=>{
                     <div className="sidebar__item sidebar__item__color--option">
                         <h4>Colors</h4>
                         <div className="sidebar__item__color sidebar__item__color--white">
-                            <label for="white">
+                            <label >
                                 White
                                 <input type="radio" id="white"/>
                             </label>
                         </div>
                         <div className="sidebar__item__color sidebar__item__color--gray">
-                            <label for="gray">
+                            <label >
                                 Gray
                                 <input type="radio" id="gray"/>
                             </label>
                         </div>
                         <div className="sidebar__item__color sidebar__item__color--red">
-                            <label for="red">
+                            <label >
                                 Red
                                 <input type="radio" id="red"/>
                             </label>
                         </div>
                         <div className="sidebar__item__color sidebar__item__color--black">
-                            <label for="black">
+                            <label >
                                 Black
                                 <input type="radio" id="black"/>
                             </label>
                         </div>
                         <div className="sidebar__item__color sidebar__item__color--blue">
-                            <label for="blue">
+                            <label >
                                 Blue
                                 <input type="radio" id="blue"/>
                             </label>
                         </div>
                         <div className="sidebar__item__color sidebar__item__color--green">
-                            <label for="green">
+                            <label >
                                 Green
                                 <input type="radio" id="green"/>
                             </label>
@@ -82,25 +82,25 @@ const Shop = ({produtos})=>{
                     <div className="sidebar__item">
                         <h4>Popular Size</h4>
                         <div className="sidebar__item__size">
-                            <label for="large">
+                            <label >
                                 Large
                                 <input type="radio" id="large"/>
                             </label>
                         </div>
                         <div className="sidebar__item__size">
-                            <label for="medium">
+                            <label >
                                 Medium
                                 <input type="radio" id="medium"/>
                             </label>
                         </div>
                         <div className="sidebar__item__size">
-                            <label for="small">
+                            <label >
                                 Small
                                 <input type="radio" id="small"/>
                             </label>
                         </div>
                         <div className="sidebar__item__size">
-                            <label for="tiny">
+                            <label >
                                 Tiny
                                 <input type="radio" id="tiny"/>
                             </label>
