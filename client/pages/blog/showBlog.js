@@ -13,7 +13,7 @@ const BlogDetails = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header currentUser={currentUser}/> 
+             
             <ShowBlogHero />
             <ShowBlog/>       
             <Footer/>

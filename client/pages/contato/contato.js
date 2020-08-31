@@ -17,7 +17,7 @@ const Loja = ()=>{
     return (
         <div>
             <Head/>
-            <Header /> 
+            
             <HeroPages/>
             <ContatoBread />
             <Contato/>

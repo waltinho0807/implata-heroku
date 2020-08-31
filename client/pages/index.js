@@ -21,7 +21,7 @@ const Home = ({ currentUser }) => {
   return (
     
       <div> 
-      <Header currentUser={currentUser} />
+      
       <HeroHome />
       <Categories />
       <Featured />

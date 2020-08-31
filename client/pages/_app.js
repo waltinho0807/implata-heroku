@@ -1,10 +1,12 @@
 import buildClient from '../api/build-client';
 import Head from '../components/Head';
+import Header from '../components/Header';
 
 const AppComponent = ({ Component, pageProps, currentUser }) => {
   return (
     <div>
       <Head/>
+      <Header currentUser={currentUser}/>
       <Component {...pageProps} />
     </div>
   );

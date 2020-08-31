@@ -12,7 +12,7 @@ const Carrinho = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header currentUser={currentUser} />
+           
             <HeroPages/>
             <CartBread/>
             <Cart/>    

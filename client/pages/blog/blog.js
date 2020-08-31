@@ -15,7 +15,7 @@ const BlogPage = ({currentUser})=>{
     return (
         <div>
             <Head/>
-            <Header currentUser={currentUser} />
+           
             <HeroPages/> 
             <BreadBlog />
             <Blog/>
