@@ -10,6 +10,7 @@ import BlogRelated from '../../components/blog/BlogRelated';
 const BlogPage = ({currentUser})=>{
     return (
         <div>
+            
             <HeroPages/> 
             <BreadBlog />
             <Blog/>
