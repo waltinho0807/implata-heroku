@@ -26,7 +26,6 @@ const Loja = ({produtos})=>{
     console.log(produtos)
     console.log(listaProdutos)
     
-    
     return (
         <div>
             <HeroPages/>
