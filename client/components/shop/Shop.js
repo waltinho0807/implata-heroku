@@ -23,7 +23,6 @@ const Shop = ({ data, response }) => {
             setPages(arrayPages);
             setProducts(dataPage.data);
         }
-
         loadProducts();
     }, [currentPage, limit, total]);
 
