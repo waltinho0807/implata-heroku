@@ -341,7 +341,7 @@ const Shop = ({ data, response }) => {
                         </div>
                         <div className="row">
 
-                            {products.map((produto) => {
+                            
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="product__item">
                                         <div className="product__item__pic set-bg" data-setbg="/static/img/product/product-1.jpg">
@@ -357,7 +357,7 @@ const Shop = ({ data, response }) => {
                                         </div>
                                     </div>
                                 </div>
-                            })}
+                          
 
                         </div>
 
