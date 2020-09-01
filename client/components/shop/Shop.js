@@ -340,7 +340,7 @@ const Shop = ({ data, response }) => {
                             </div>
                         </div>
                         <div className="row">
-                            
+
                             {products.map((produto) => {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="product__item">
@@ -362,25 +362,15 @@ const Shop = ({ data, response }) => {
                         </div>
 
                         <div className="product__pagination">
-                            {pages.map((page) => {
-                                <div>
-                                    <a
-                                        href={isSelect = { page: 1 === currentPage }}
-                                        key={page}
-                                        onClick={() => setCurrentPage(page)}
-                                    >1</a>
-                                    <a href={isSelect = { page: 1 === currentPage }}
-                                        key={page}
-                                        onClick={() => setCurrentPage(page)}>2</a>
-                                    <a href={isSelect = { page: 1 === currentPage }}
-                                        key={page}
-                                        onClick={() => setCurrentPage(page)}>3</a>
-                                    <a href={isSelect = { page: 1 === currentPage }}
-                                        key={page}
-                                        onClick={() => setCurrentPage(currentPage + 1)}>
-                                             <i className="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            })}
+
+                            <div>
+                                <a>1</a>
+                                <a>2</a>
+                                <a>3</a>
+                                <a>
+                                    <i className="fa fa-long-arrow-right"></i></a>
+                            </div>
+
 
                         </div>
 
