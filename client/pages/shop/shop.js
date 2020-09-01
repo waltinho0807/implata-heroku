@@ -4,6 +4,13 @@ import ShopBread from '../../components/shop/ShopBread';
 import HeroPages from '../../components/form/HeroPages';
 
 const Loja = ({produtos})=>{
+    const revenge = produtos.map((produto)=>{
+        <ul>
+            <li key={produto.id}>{produto.id}</li>
+            <li>{produto.title}</li>
+            <li>{produto.title}</li>
+        </ul>
+    })
     const listaProdutos = produtos.map((produto)=>{
         <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="product__item" key={produto.id}>
@@ -24,6 +31,7 @@ const Loja = ({produtos})=>{
 
     console.log(produtos)
     console.log(listaProdutos)
+    console.log(revenge)
     return (
         <div>
             <HeroPages/>
