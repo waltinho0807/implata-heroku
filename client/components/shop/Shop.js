@@ -17,7 +17,9 @@ const Shop = ({ data }) => {
             </div>
         </div>
     </div>
-})
+});
+
+console.log(listaProdutos)
 
 return (
     <section className="product spad">
