@@ -20,14 +20,12 @@ const Home = ({ currentUser, produtos }) => {
   console.log(produtos)
   return (
       <div> 
-      
       <HeroHome />
       <Categories />
       <Featured />
       <Banner />
       <Latest />
       <FromBlog />
-      
       </div> 
   );
 };
