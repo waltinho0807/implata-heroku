@@ -16,7 +16,7 @@ import HeroPages from '../../components/form/HeroPages';
 const Loja = ()=>{
     return (
         <div>
-            <Head/>
+            
             
             <HeroPages/>
             <ContatoBread />
