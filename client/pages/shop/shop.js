@@ -19,7 +19,7 @@ Loja.getInitialProps = async (context, client)=>{
     const {data} = await client.get('/api/produtos');
     
 
-    return {produtos: data, response: res};
+    return {produtos: data};
 }
 
 
