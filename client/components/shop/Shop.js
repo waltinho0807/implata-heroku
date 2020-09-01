@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
 const Shop = ({ data }) => {
-    const listaProdutos = data.map(produto)=> {
+    const listaProdutos = data.map((produto)=>{
     <div className="col-lg-4 col-md-6 col-sm-6">
         <div className="product__item" key={produto.id}>
             <div className="product__item__pic set-bg" data-setbg="/static/img/product/product-1.jpg">
@@ -17,7 +17,7 @@ const Shop = ({ data }) => {
             </div>
         </div>
     </div>
-}
+})
 
 return (
     <section className="product spad">
