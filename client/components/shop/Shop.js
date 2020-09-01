@@ -21,7 +21,7 @@ const Shop = ({ data, response }) => {
             }
 
             setPages(arrayPages);
-            setProducts(dataPage.data);
+            setProducts(data);
         }
         loadProducts();
     }, [currentPage, limit, total]);
