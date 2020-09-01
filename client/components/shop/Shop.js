@@ -18,6 +18,7 @@ const Shop = ({ data }) => {
         </div>
     </div>
 });
+
 console.log(data.produto)
 console.log(listaProdutos)
 
