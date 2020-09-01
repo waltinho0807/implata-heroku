@@ -10,9 +10,9 @@ const Shop = ({ data, response }) => {
 
     useEffect(() => {
         async function loadProducts() {
-            const data = `${data}?page=${currentPage}&limit=${limit}`;
+            const dataPage = `${data}?page=${currentPage}&limit=${limit}`;
 
-            setTotal(response.headers["x-total-count"]);
+            setTotal(dataPage.headers["x-total-count"]);
             const totalPages = Math.ceil(total / limit);
 
             const arrayPages = [];
@@ -21,7 +21,7 @@ const Shop = ({ data, response }) => {
             }
 
             setPages(arrayPages);
-            setProducts(response.data);
+            setProducts(dataPage.data);
         }
 
         loadProducts();
