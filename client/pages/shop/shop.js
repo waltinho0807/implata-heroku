@@ -22,6 +22,7 @@ const Loja = ({produtos})=>{
             </div>
         </div>
     )});
+    
 
     return (
         <div>
