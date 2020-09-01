@@ -340,6 +340,7 @@ const Shop = ({ data, response }) => {
                             </div>
                         </div>
                         <div className="row">
+                            
                             {products.map((produto) => {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="product__item">
