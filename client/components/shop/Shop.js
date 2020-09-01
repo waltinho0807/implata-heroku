@@ -12,7 +12,7 @@ const Shop = ({ data, response }) => {
         async function loadProducts() {
             const dataPage = `${data}?page=${currentPage}&limit=${limit}`;
 
-            setTotal(dataPage.headers["x-total-count"]);
+            setTotal(dataPage["x-total-count"]);
             const totalPages = Math.ceil(total / limit);
 
             const arrayPages = [];
