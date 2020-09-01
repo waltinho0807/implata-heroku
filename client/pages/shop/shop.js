@@ -9,7 +9,7 @@ const Loja = ({produtos})=>{
         <div>
             <HeroPages/>
             <ShopBread />
-            <Shop data={produtos} />
+            <Shop data={produtos} response={res} />
         </div>
     )
    
@@ -17,8 +17,9 @@ const Loja = ({produtos})=>{
 
 Loja.getInitialProps = async (context, client)=>{
     const {data} = await client.get('/api/produtos');
+    const res = await client.get(`/shop/shop?page=${currentPage}&limit=${limit}`);
 
-    return {produtos: data}
+    return {produtos: data, response: res};
 }
 
 

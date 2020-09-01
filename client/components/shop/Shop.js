@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
-const Shop = ({ data }) => {
+const Shop = ({ data, response }) => {
     console.log(data)
     const [products, setProducts] = useState([]);
     const [total, setTotal] = useState(0);
@@ -10,8 +10,7 @@ const Shop = ({ data }) => {
 
     useEffect(() => {
         async function loadProducts() {
-            const response = await api.get(
-                `/shop/shop?page=${currentPage}&limit=${limit}`
+            const response = response;
             );
             setTotal(response.headers["x-total-count"]);
             const totalPages = Math.ceil(total / limit);
