@@ -430,7 +430,7 @@ const Shop = ({produtos})=>{
                                     <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                 </ul>
                             </div>
-                            <div class="product__item__text">
+                            <div className="product__item__text">
                                 <h6><a href="#">Crab Pool Security</a></h6>
                                 <h5>$30.00</h5>
                             </div>

@@ -2,13 +2,14 @@ import React from 'react';
 
 import ShopBread from '../../components/shop/ShopBread';
 import Shop from '../../components/shop/Shop';
+import HeroPages from '../../components/form/HeroPages';
 
-const Loja = ({currentUser, produtos})=>{
-    console.log(produtos)
+const Loja = ({produtos})=>{
     return (
         <div>
+            <HeroPages/>
             <ShopBread />
-            <Shop />
+            <Shop data={produtos} />
         </div>
     )
    
