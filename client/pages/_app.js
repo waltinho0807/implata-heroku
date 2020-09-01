@@ -1,6 +1,8 @@
 import buildClient from '../api/build-client';
 import Head from '../components/Head';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Javascript from '../components/Javascript';
 
 
 
