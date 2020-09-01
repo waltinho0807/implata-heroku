@@ -15,9 +15,10 @@ const Javascript = props => {
             <script src="/static/js/owl.carousel.min.js"></script>
             <script src="/static/js/main.js"></script>
             
+            
         </div>
     )
-    
+
 }
 
 export default Javascript;
