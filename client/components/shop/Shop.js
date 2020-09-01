@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Shop = (props)=>{
-    console.log(props.produtos)
+const Shop = ({data})=>{
+    console.log(data)
     return(
     <section className="product spad">
     <div className="container">
