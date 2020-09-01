@@ -25,7 +25,7 @@ const Loja = ({produtos})=>{
 
     console.log(produtos)
     console.log(listaProdutos)
-    console.log(revenge)
+    
     return (
         <div>
             <HeroPages/>
