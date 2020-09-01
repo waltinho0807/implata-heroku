@@ -17,8 +17,8 @@ import FromBlog from '../components/home/FromBlog';
 
 
 const Home = ({ currentUser, produtos }) => {
+  console.log(produtos)
   return (
-    
       <div> 
       
       <HeroHome />
