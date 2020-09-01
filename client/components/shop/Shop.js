@@ -11,6 +11,7 @@ const Shop = ({ data, response }) => {
     useEffect(() => {
         async function loadProducts() {
             const response = response;
+            
           
             setTotal(response.headers["x-total-count"]);
             const totalPages = Math.ceil(total / limit);
