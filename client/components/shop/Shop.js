@@ -13,12 +13,12 @@ const Shop = ({ data }) => {
             </div>
             <div className="product__item__text">
                 <h6><a href="/produtos/[produtoId]" as={`/produtos/${produto.id}`}>{produto.title}</a></h6>
-                <h5>{produto.price}</h5>
+                <h5>{data.produto.price}</h5>
             </div>
         </div>
     </div>
 });
-
+console.log(data.produto)
 console.log(listaProdutos)
 
 return (
