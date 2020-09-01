@@ -4,16 +4,10 @@ import ShopBread from '../../components/shop/ShopBread';
 import HeroPages from '../../components/form/HeroPages';
 
 const Loja = ({produtos})=>{
-    const revenge = produtos.map((produto)=>{
-        <ul>
-            <li key={produto.id}>{produto.id}</li>
-            <li>{produto.title}</li>
-            <li>{produto.title}</li>
-        </ul>
-    })
     const listaProdutos = produtos.map((produto)=>{
-        <div className="col-lg-4 col-md-6 col-sm-6">
-            <div className="product__item" key={produto.id}>
+        return(
+        <div className="col-lg-4 col-md-6 col-sm-6" key={produto.id}>
+            <div className="product__item" >
                 <div className="product__item__pic set-bg" data-setbg="/static/img/product/product-1.jpg">
                     <ul className="product__item__pic__hover">
                         <li><a href="#"><i className="fa fa-heart"></i></a></li>
@@ -27,7 +21,7 @@ const Loja = ({produtos})=>{
                 </div>
             </div>
         </div>
-    });
+    )});
 
     console.log(produtos)
     console.log(listaProdutos)
