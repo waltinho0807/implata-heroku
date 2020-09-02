@@ -18,6 +18,7 @@ const Contato = ()=>{
                         <h4>Address</h4>
                         <p>60-49 Road 11378 New York</p>
                     </div>
+                    
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div className="contact__widget">
