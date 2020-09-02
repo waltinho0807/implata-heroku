@@ -36,7 +36,7 @@ const Contato = ()=>{
             </div>
         </div>
     </section>
-    )
+    );
 }
 
 export default Contato;
